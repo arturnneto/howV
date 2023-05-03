@@ -1,0 +1,175 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #4d83e7  !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+h3 {
+    color: white !important;
+}
+
+a:link {
+    text-decoration: none;
+    color: black !important;
+}
+
+a:visited {
+    color: black;
+}
+
+.logo-principal {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2767DD;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.titulos {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margem-geral {
+    margin-top: 2%;
+}
+
+
+
+/* Navbar */
+.navbar {
+    background-color: #548df7;
+}
+
+.nav-link {
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    padding: 0px 30px 0px 30px !important;
+    color: white !important;
+}
+
+.pesquisa-form {
+    margin-top: 5%;
+}
+
+.botao-form {
+    color: white;
+    background-color: #E76F51 !important;
+    border: 2px 2px 2px 2px !important;
+    border-color: black !important;
+    border-style: double !important;
+}
+
+
+
+/* Categorias */
+.foto-categoria {
+    margin: auto;
+    border-color: #E76F51;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 8px;
+    background-color: #E76F51;
+    box-shadow: 2px 2px 2px #264653;
+}
+
+
+
+/* Sobre nós */
+.wrapper {
+	padding: 5px;
+	max-width: 85%;
+    height: 100%;
+	width: 95%;
+	margin: 20px auto;
+    background-color: #2767dd;
+    justify-content: center;
+    display: grid;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center !important;
+	margin: 5px;
+}
+
+.column {
+    color: black;
+	flex: 1;
+	margin: 20px;
+	padding: 10px;
+    border-radius: 7px;
+}
+
+.card {
+    background-color: white!important;
+    height: 100% !important;
+    width: 450px !important;
+    border: none !important;
+    box-shadow: 2px 2px 2px #264653;
+}
+
+.card-title {
+    justify-content: center;
+    display: flex;
+    font-size: 30px !important;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.card-text {
+    font-size: 18px;
+    color: black !important;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.accordion-body {
+    background-color: white !important;
+    color: black !important;
+}
+
+.accordion-header {
+    background-color: white !important;
+}
+
+.accordion-button {
+    background-color: #264653 !important;
+}
+
+.accordion {
+    background-color: white !important;
+}
+
+.texto-sobre-nos {
+    font-size: 18px;
+    color: black !important;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    box-shadow: 2px 2px 2px #264653;
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: #548df7 !important;
+}
+
+.copyright {
+    text-align: justify;
+    text-justify: inter-word;
+}
